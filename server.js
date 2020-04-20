@@ -16,8 +16,8 @@ app.get('/', (req, res) => {
 })
 
 // Routes
-const itemsRoutes = require('./controllers/itemsRoutes')
-const reviewsRoutes = require('./controllers/reviewsRoutes')
+const itemRoutes = require('./controllers/itemRoutes')
+const reviewRoutes = require('./controllers/reviewRoutes')
 
 app.use('/api/items', itemRoutes)
 app.use('/api/reviews', reviewRoutes)

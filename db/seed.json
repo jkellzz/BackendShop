@@ -69,11 +69,11 @@
         "img": "https://powerhousegym.com/wp-content/themes/powerhousegym/assets/img/find_a_gym.jpg",
         "price": 30,
         "inStock": false,
-        "itemDescription": "p",
+        "itemDescription": "A modern day gymnasium (as gym used to be called way back in Ancient Greece) is a place for indoor physical workout where various equipment and machines are typically used. For some people, a typical gym is a place where you focus on weight lifting and similar activities.",
         "review": [
             {
                 "rating": 5,
-                "reviews": "p"
+                "reviews": "This is the best gym I have joined. The staff are extremely helpful and the gym itself is clean and well kept. I recommended anyone looking for a good everyday gym to come and check this place out."
             }
         ]
     },
@@ -82,11 +82,11 @@
         "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6362/6362983_sd.jpg;maxHeight=640;maxWidth=550",
         "price": 1299.99,
         "inStock": true,
-        "itemDescription": "p",
+        "itemDescription": "iBUYPOWER Desktop: Stay ahead of the competition with this iBUYPOWER desktop computer. The 16GB of RAM and Intel Core i7 processor run complex programs, while the 1TB hard drive and 480GB SSD provide plenty of storage space and fast start-up times. This iBUYPOWER desktop computer features an NVIDIA GeForce RTX 2060 SUPER graphics card for 3-D modeling and AI simulations.",
         "review": [
             {
-                "rating": 4.5,
-                "reviews": "p"
+                "rating": 4.7,
+                "reviews": "I have had my old computer for about 10 years and I have been looking for something to replace it with. I came across this computer and it has all the top line items that I need for my graphics and video editing work. I have been using this new computer for a little over four weeks and I cam tell you this is an awesome computer with quality components. I would recommend this computer to anyone!!!"
             }
         ]
     },
@@ -95,11 +95,11 @@
         "img": "https://www.milwaukeetool.com/-/media/Products/Power-Tools/Cordless/Saws-and-Cutters/2720-20.jpg?mw=461&mh=422&hash=790909C509568B28793A818021AD654F46088ED9",
         "price": 153.37,
         "inStock": true,
-        "itemDescription": "p",
+        "itemDescription": "Our M18 FUEL™ SAWZALL® Cordless Reciprocating Saw cuts faster than its corded counterparts and gives you up to 2X more run-time and 5X longer tool life than competitive saws. The recip saw's POWERSTATE™ brushless motor provides you with cutting power that has only been associated with corded tools. The M18™ REDLITHIUM™ XC5.0 Battery Pack (not included) delivers up to 2.5X runtime and gives you more work per charge and more work over the life of the pack than competitive batteries. The saw’s REDLINK PLUS™ Intelligence ensures optimized performance and protection from overloading, overheating and over-discharging. The 18-volt lithium-ion SAWZALL® features an adjustable shoe, integrated LED light and a hanging hook for convenient storage while you are on the job.",
         "review": [
             {
                 "rating": 4.7,
-                "reviews": "p"
+                "reviews": "The M-18 Fuel Sazall is incredible. I'm a senior citizen and I bought this because I didn't want to deal with a chainsaw anymore for cutting down young wild trees on the farm where I live. With a pruning blade, it just blasts through 3' diameter trunks and is just a bit slower for 4 to 6' ones. It seems to cut better than my old corded reciprocating saw. Also made quick work of cutting up some old treated 4x4 posts I wanted to get rid of. I'm very happy with this purchase."
             }
         ]
     },
@@ -108,11 +108,11 @@
         "img": "https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5023/original/ga-sei-curriculum.png",
         "price": 15000,
         "inStock": true,
-        "itemDescription": "p",
+        "itemDescription": "Get hands-on with leading front-end web development and back-end web development languages: HTML, CSS, JavaScript, Python, Django, Ruby on Rails, React, Angular, or SQL. Learn the skills to discuss and use data structures and algorithms to solve real-world problems.",
         "review": [
             {
                 "rating": 5,
-                "reviews": "p"
+                "reviews": "First, off I love GA. GA changed my life completely. I took part in the full-time web development immersive program and by far it is one of the best decisions I've made in my life. Never would I have thought I would be where I'm currently at in life."
             }
         ]
     },
@@ -121,11 +121,11 @@
         "img": "https://cdn.pixabay.com/photo/2016/09/16/19/17/injection-1674900__340.png",
         "price": 190000000000000.97,
         "inStock": false,
-        "itemDescription": "p",
+        "itemDescription": "Pretty much the thing everyone has been waiting for.",
         "review": [
             {
                 "rating": 5,
-                "reviews": "p"
+                "reviews": "Hope it works!"
             }
         ]
     }
