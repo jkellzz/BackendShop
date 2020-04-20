@@ -1,66 +1,66 @@
 [
     {
-        "item": "p",
-        "img": "p",
-        "price": 5,
+        "item": "Texas Outlaw",
+        "img": "https://prodimage.images-bn.com/pimages/9780316428163_p0_v2_s550x406.jpg",
+        "price": 19.60,
         "inStock": true,
-        "description": [
+        "itemDescription": "Texas Ranger Rory Yates is not keen for hero status. But it's unavoidable once his girlfriend, country singer Willow Dawes, writes a song about his bravery. Rory escapes his newfound fame when he's sent to the remote West Texas town of Rio Lobo, a municipality with two stoplights. And now, according to the Chief of Police, it has one too many Texas Rangers.",
+        "review": [
             {
-                "itemDescription": "p",
-                "rating": 5,
-                "reviews": "p"
+                "rating": 4,
+                "reviews": "Kept me riveted every time I picked it up. Was a little more than half way and couldn’t put it down. Has a a couple unexpected twists. Very enjoyable!"
             }
         ]
     },
     {
-        "item": "p",
-        "img": "p",
-        "price": 5,
+        "item": "Avengers: Endgame (DVD)",
+        "img": "https://i5.walmartimages.com/asr/86887fb1-3e71-47e7-bd97-0d46197e575e_1.3fdedfe52d4b9c7c482ad43a71a98179.jpeg?odnWidth=450&odnHeight=450&odnBg=ffffff",
+        "price": 13,
         "inStock": true,
-        "description": [
+        "itemDescription": "Five years after suffering a crushing defeat and staggering losses at the hands of the evil Thanos (Josh Brolin in a motion-capture performance), Iron Man (Robert Downey, Jr.), Captain America (Chris Evans), Thor (Chris Hemsworth), and the rest of the remaining Avengers join forces with allies new and old as they travel back in time to various points in the past in a desperate attempt to obtain the powerful Infinity Stones and put things right. Thrilling, critically acclaimed, blockbuster sequel also stars Mark Ruffalo, Scarlett Johansson, Jeremy Renner.Avengers: Endgame (DVD)",
+        "review": [
             {
-                "itemDescription": "p",
-                "rating": 5,
-                "reviews": "p"
+                "rating": 4,
+                "reviews": "Best Avengers movie to date! Great acting, with great humor, action, and a few surprises. A must for any Marvel fan."
             }
         ]
     },
     {
-        "item": "p",
-        "img": "p",
-        "price": 5,
+        "item": "Morrison Rocking Recliner",
+        "img": "https://s3.amazonaws.com/vc-spins/production/000025/010766%7CD162664/low_resolution_spin_11.jpeg",
+        "price": 599,
         "inStock": true,
-        "description": [
+        "itemDescription": "The Morrison Rocking Recliner is a family favorite that’s designed for comfort and durability. It features a tufted back and chaise seat, plus amply padded arms to cradle you in comfort. Simply use the convenient handle on the outside arm to raise the legrest for reading, relaxing or watching TV. When you’re not reclining, it’s a relaxing rocker with a smooth, graceful motion. Make it yours with your choice of fabrics and other available upgrades.",
+        "review": [
             {
-                "itemDescription": "p",
-                "rating": 5,
-                "reviews": "p"
+                "rating": 4.5,
+                "reviews": "I was torn between recliners and decided on this one i! It’s the best purchase I have made in a long time! Very comfortable and relaxing after a long day at work!!"
             }
         ]
     },
     {
-        "item": "p",
-        "img": "p",
-        "price": 5,
+        "item": "Simple Designs Floor Lamp with Reading Light, Silver",
+        "img": "https://i5.walmartimages.com/asr/c38e8535-2ee2-477d-9e9a-836b20fefa27_1.7f30636db35fcff157ee24a0de659680.jpeg?odnWidth=450&odnHeight=450&odnBg=ffffff",
+        "price": 29.99,
         "inStock": true,
-        "description": [
+         "itemDescription": "A charming, inexpensive, and practical floor lamp to meet your basic lighting needs. This simple mother/daughter floor lamp with reading light features a painted finish and plastic white shades. Perfect for living room, bedroom, office, kids room, or college dorm.Simple Designs Floor Lamp with Reading Light, Silver",
+        "review": [
             {
-                "itemDescription": "p",
-                "rating": 5,
-                "reviews": "p"
+               "rating": 3,
+               "reviews": "This torchiere lamp sheds a nice light on the room, and the reading light is a great addition. It was easily assembled, and it's a good, sturdy lamp. The shades are plastic, which seemed kind of cheap when I unpacked the box, but they're actually very good looking once the lamp is assembled."
             }
         ]
     },
     {
-        "item": "p",
-        "img": "p",
-        "price": 5,
+        "item": "iPad mini",
+        "img": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-mini-select-201911?wid=930&amp;hei=1060&amp;fmt=jpeg&amp;qlt=80&amp;op_usm=0.5,0.5&amp;.v=1584056010058",
+        "price": 399,
         "inStock": true,
-        "description": [
+        "itemDescription": "iPad mini is beloved for its size and capability. And now there are even more reasons to love it. The A12 Bionic chip with Neural Engine. A 7.9‑inch Retina display with True Tone. And Apple Pencil, so you can capture your biggest ideas wherever they come to you. It’s still iPad mini. There’s just more of it than ever.",
+        "review": [
             {
-                "itemDescription": "p",
-                "rating": 5,
-                "reviews": "p"
+               "rating": 4,
+               "reviews": "The iPad mini 2019 is Apple’s most totable iPad, and it’s deceptively powerful for its small size. It has a bright 7.9-inch display that works with the Apple Pencil and a chipset that smokes the small tablet competition. Its price is equally deceptive, costing more than the larger iPad 9.7. For its asking price, we would have loved to have seen an 'iPad Pro mini' and Apple Pencil Gen 2 support, but it’s hard not to love this charming little tab."
             }
         ]
     },
@@ -69,9 +69,9 @@
         "img": "https://powerhousegym.com/wp-content/themes/powerhousegym/assets/img/find_a_gym.jpg",
         "price": 30,
         "inStock": false,
-        "description": [
+        "itemDescription": "p",
+        "review": [
             {
-                "itemDescription": "p",
                 "rating": 5,
                 "reviews": "p"
             }
@@ -82,10 +82,10 @@
         "img": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6362/6362983_sd.jpg;maxHeight=640;maxWidth=550",
         "price": 1299.99,
         "inStock": true,
-        "description": [
+        "itemDescription": "p",
+        "review": [
             {
-                "itemDescription": "p",
-                "rating": 5,
+                "rating": 4.5,
                 "reviews": "p"
             }
         ]
@@ -95,10 +95,10 @@
         "img": "https://www.milwaukeetool.com/-/media/Products/Power-Tools/Cordless/Saws-and-Cutters/2720-20.jpg?mw=461&mh=422&hash=790909C509568B28793A818021AD654F46088ED9",
         "price": 153.37,
         "inStock": true,
-        "description": [
+        "itemDescription": "p",
+        "review": [
             {
-                "itemDescription": "p",
-                "rating": 5,
+                "rating": 4.7,
                 "reviews": "p"
             }
         ]
@@ -108,9 +108,9 @@
         "img": "https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5023/original/ga-sei-curriculum.png",
         "price": 15000,
         "inStock": true,
-        "description": [
+        "itemDescription": "p",
+        "review": [
             {
-                "itemDescription": "p",
                 "rating": 5,
                 "reviews": "p"
             }
@@ -121,9 +121,9 @@
         "img": "https://cdn.pixabay.com/photo/2016/09/16/19/17/injection-1674900__340.png",
         "price": 190000000000000.97,
         "inStock": false,
-        "description": [
+        "itemDescription": "p",
+        "review": [
             {
-                "itemDescription": "p",
                 "rating": 5,
                 "reviews": "p"
             }
