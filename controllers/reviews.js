@@ -34,7 +34,7 @@ const deleteReview = (req, res) => {
     Review.findByIdAndDelete(req.params.id).then(author => {
         res.json({
             "status": "success",
-            "msg": "author deleted"
+            "msg": "review deleted"
         })
     })
 }

@@ -34,7 +34,7 @@ const deleteItem = (req, res) => {
     Item.findByIdAndDelete(req.params.id).then(author => {
         res.json({
             "status": "success",
-            "msg": "author deleted"
+            "msg": "item deleted"
         })
     })
 }
