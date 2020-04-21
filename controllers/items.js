@@ -4,6 +4,7 @@ const Item = require('../model/itemModel')
 const getAllItems = (req, res) => {
     Item.find({}).then(items => {
         res.json(items)
+        
     })
 }
 

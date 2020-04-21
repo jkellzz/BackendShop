@@ -1,4 +1,4 @@
-const item = require('../itemModel/model')
+const item = require('../model/itemModel')
 const itemData = require('./seed.json')
 const mongoose = require('./connection')
 
