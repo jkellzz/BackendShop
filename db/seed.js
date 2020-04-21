@@ -54,6 +54,140 @@ Item.deleteMany({}).then(() => {
         })
 
         Item.create({
+            item: "Simple Designs Floor Lamp with Reading Light, Silver",
+            img: "https://i5.walmartimages.com/asr/c38e8535-2ee2-477d-9e9a-836b20fefa27_1.7f30636db35fcff157ee24a0de659680.jpeg?odnWidth=450&odnHeight=450&odnBg=ffffff",
+            price: 29.99,
+            condition: "new",
+            itemDescription: "A charming, inexpensive, and practical floor lamp to meet your basic lighting needs. This simple mother/daughter floor lamp with reading light features a painted finish and plastic white shades. Perfect for living room, bedroom, office, kids room, or college dorm.Simple Designs Floor Lamp with Reading Light, Silver"
+        }).then(lamp => {
+            console.log('lamp has been created', lamp)
+            Promise.all([
+                Review.create({
+                    rating: 3,
+                    reviews: "This torchiere lamp sheds a nice light on the room, and the reading light is a great addition. It was easily assembled, and it's a good, sturdy lamp. The shades are plastic, which seemed kind of cheap when I unpacked the box, but they're actually very good looking once the lamp is assembled.",
+                    date: "2017-3-26"
+                }).then(review => {
+                    lamp.review.push(review)
+                    // endgame.save()
+                    console.log('created lamp review', review, lamp)
+                })
+            ]).then(() => {
+                lamp.save()
+            })
+        })
+
+        Item.create({
+            item: "iPad mini",
+            img: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-mini-select-201911?wid=930&amp;hei=1060&amp;fmt=jpeg&amp;qlt=80&amp;op_usm=0.5,0.5&amp;.v=1584056010058",
+            price: 399,
+            condition: "new",
+            itemDescription: "iPad mini is beloved for its size and capability. And now there are even more reasons to love it. The A12 Bionic chip with Neural Engine. A 7.9‑inch Retina display with True Tone. And Apple Pencil, so you can capture your biggest ideas wherever they come to you. It’s still iPad mini. There’s just more of it than ever."
+        }).then(ipad => {
+            console.log('ipad mini has been created', ipad)
+            Promise.all([
+                Review.create({
+                    rating: 4,
+                    reviews: "The iPad mini 2019 is Apple’s most totable iPad, and it’s deceptively powerful for its small size. It has a bright 7.9-inch display that works with the Apple Pencil and a chipset that smokes the small tablet competition. Its price is equally deceptive, costing more than the larger iPad 9.7. For its asking price, we would have loved to have seen an 'iPad Pro mini' and Apple Pencil Gen 2 support, but it’s hard not to love this charming little tab.",
+                    date: "2018-5-11"
+                }).then(review => {
+                    ipad.review.push(review)
+                    // ipad.save()
+                    console.log('created ipad review', review, ipad)
+                })
+            ]).then(() => {
+                ipad.save()
+            })
+        })
+
+        Item.create({
+            item: "Local Gym Membership",
+            img: "https://powerhousegym.com/wp-content/themes/powerhousegym/assets/img/find_a_gym.jpg",
+            price: 30,
+            condition: "NA",
+            itemDescription: "A modern day gymnasium (as gym used to be called way back in Ancient Greece) is a place for indoor physical workout where various equipment and machines are typically used. For some people, a typical gym is a place where you focus on weight lifting and similar activities."
+        }).then(gym => {
+            console.log('gym has been created', gym)
+            Promise.all([
+                Review.create({
+                    rating: 5,
+                    reviews: "This is the best gym I have joined. The staff are extremely helpful and the gym itself is clean and well kept. I recommended anyone looking for a good everyday gym to come and check this place out.",
+                    date: "2020-2-11"
+                }).then(review => {
+                    gym.review.push(review)
+                    console.log('created gym review', review, gym)
+                })
+            ]).then(() => {
+                gym.save()
+            })
+        })
+
+        Item.create({
+            item: "iBUYPOWER - Gaming Desktop - Intel Core i7-9700F - 16GB Memory - NVIDIA GeForce RTX 2060 SUPER - 1TB HDD + 480GB Solid State Drive - Black",
+            img: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6362/6362983_sd.jpg;maxHeight=640;maxWidth=550",
+            price: 1299.99,
+            condition: "new",
+            itemDescription: "iBUYPOWER Desktop: Stay ahead of the competition with this iBUYPOWER desktop computer. The 16GB of RAM and Intel Core i7 processor run complex programs, while the 1TB hard drive and 480GB SSD provide plenty of storage space and fast start-up times. This iBUYPOWER desktop computer features an NVIDIA GeForce RTX 2060 SUPER graphics card for 3-D modeling and AI simulations."
+        }).then(pc => {
+            console.log('pc has been created', pc)
+            Promise.all([
+                Review.create({
+                    rating: 4.7,
+                    reviews: "I have had my old computer for about 10 years and I have been looking for something to replace it with. I came across this computer and it has all the top line items that I need for my graphics and video editing work. I have been using this new computer for a little over four weeks and I cam tell you this is an awesome computer with quality components. I would recommend this computer to anyone!!!",
+                    date: "2019-11-3"
+                }).then(review => {
+                    pc.review.push(review)
+                    console.log('created pc review', review, pc)
+                })
+            ]).then(() => {
+                pc.save()
+            })
+        })
+
+        Item.create({
+            item: "M18 FUEL™ SAWZALL® Reciprocating Saw (Tool Only)",
+            img:"https://www.milwaukeetool.com/-/media/Products/Power-Tools/Cordless/Saws-and-Cutters/2720-20.jpg?mw=461&mh=422&hash=790909C509568B28793A818021AD654F46088ED9",
+            price: 153.37,
+            condition: "used",
+            itemDescription: "Our M18 FUEL™ SAWZALL® Cordless Reciprocating Saw cuts faster than its corded counterparts and gives you up to 2X more run-time and 5X longer tool life than competitive saws. The recip saw's POWERSTATE™ brushless motor provides you with cutting power that has only been associated with corded tools. The M18™ REDLITHIUM™ XC5.0 Battery Pack (not included) delivers up to 2.5X runtime and gives you more work per charge and more work over the life of the pack than competitive batteries. The saw’s REDLINK PLUS™ Intelligence ensures optimized performance and protection from overloading, overheating and over-discharging. The 18-volt lithium-ion SAWZALL® features an adjustable shoe, integrated LED light and a hanging hook for convenient storage while you are on the job."
+        }).then(saw => {
+            console.log('saw has been created', saw)
+            Promise.all([
+                Review.create({
+                    rating: 4.7,
+                    reviews: "The M-18 Fuel Sazall is incredible. I'm a senior citizen and I bought this because I didn't want to deal with a chainsaw anymore for cutting down young wild trees on the farm where I live. With a pruning blade, it just blasts through 3' diameter trunks and is just a bit slower for 4 to 6' ones. It seems to cut better than my old corded reciprocating saw. Also made quick work of cutting up some old treated 4x4 posts I wanted to get rid of. I'm very happy with this purchase.",
+                    date: "2020-1-13"
+                }).then(review => {
+                    saw.review.push(review)
+                    console.log('created saw review', review, saw)
+                })
+            ]).then(() => {
+                saw.save()
+            })
+        })
+
+        Item.create({
+            item: "General Assembly Software Engineering Immersive",
+            img: "https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5023/original/ga-sei-curriculum.png",
+            price: 15000,
+            condition: "NA",
+            itemDescription:"Get hands-on with leading front-end web development and back-end web development languages: HTML, CSS, JavaScript, Python, Django, Ruby on Rails, React, Angular, or SQL. Learn the skills to discuss and use data structures and algorithms to solve real-world problems."
+        }).then(ga => {
+            console.log('ga has been created', ga)
+            Promise.all([
+                Review.create({
+                    rating: 5,
+                    reviews: "First, off I love GA. GA changed my life completely. I took part in the full-time web development immersive program and by far it is one of the best decisions I've made in my life. Never would I have thought I would be where I'm currently at in life.",
+                    date: "2019-8-24"
+                }).then(review => {
+                    ga.review.push(review)
+                    console.log('created ga review', review, ga)
+                })
+            ]).then(() => {
+                ga.save()
+            })
+        })
+
+        Item.create({
             item: "Morrison Rocking Recliner",
             img: "https://s3.amazonaws.com/vc-spins/production/000025/010766%7CD162664/low_resolution_spin_11.jpeg",
             price: 599,
