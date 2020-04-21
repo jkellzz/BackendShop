@@ -12,9 +12,9 @@ router.get('/:id', itemsController.getItemById)
 router.post('/', itemsController.createItem)
 
 // Update item
-router.put('/', itemsController.updateItem)
+router.put('/:id', itemsController.updateItem)
 
 // Delete item
-router.delete('/', itemsController.deleteItem)
+router.delete('/:id', itemsController.deleteItem)
 
 module.exports = router

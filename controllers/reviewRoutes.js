@@ -12,9 +12,9 @@ router.get('/:id', reviewsController.getReviewById)
 router.post('/', reviewsController.createReview)
 
 // Update review
-router.put('/', reviewsController.updateReview)
+router.put('/:id', reviewsController.updateReview)
 
 // Delete review
-router.delete('/', reviewsController.deleteReview)
+router.delete('/:id', reviewsController.deleteReview)
 
 module.exports = router
