@@ -2,11 +2,8 @@ const Item = require('../model/itemModel')
 
 // Controller to get all items
 const getAllItems = (req, res) => {
-    Item.find({})
-    .populate("review")
-    .then(items => {
+    Item.find({}).then(items => {
         res.json(items)
-        
     })
 }
 
