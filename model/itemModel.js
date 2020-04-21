@@ -1,4 +1,4 @@
-const mongoose = require('..db/connection')
+const mongoose = require('../db/connection')
 const Schema = mongoose.Schema
 
 
@@ -10,7 +10,7 @@ const ItemSchema = Schema({
     "itemDescription": String,
     "review": [
         {
-        "ref": Review,
+        "ref": "Review",
         "type": Schema.Types.ObjectId
         }
     ]
