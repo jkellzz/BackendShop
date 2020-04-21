@@ -18,7 +18,8 @@ Item.deleteMany({}).then(() => {
             Promise.all([
                 Review.create({
                     rating: 4,
-                    reviews: "Kept me riveted every time I picked it up. Was a little more than half way and couldn’t put it down. Has a a couple unexpected twists. Very enjoyable!"
+                    reviews: "Kept me riveted every time I picked it up. Was a little more than half way and couldn’t put it down. Has a a couple unexpected twists. Very enjoyable!",
+                    date: "2001-3-22"
                 }).then(review => {
                     tOutlaw.review.push(review)
                     // tOutlaw.save()
@@ -40,7 +41,8 @@ Item.deleteMany({}).then(() => {
             Promise.all([
                 Review.create({
                     rating: 4,
-                    reviews: "Best Avengers movie to date! Great acting, with great humor, action, and a few surprises. A must for any Marvel fan."
+                    reviews: "Best Avengers movie to date! Great acting, with great humor, action, and a few surprises. A must for any Marvel fan.",
+                    date: "2019-6-2"
                 }).then(review => {
                     endgame.review.push(review)
                     // endgame.save()
@@ -62,7 +64,8 @@ Item.deleteMany({}).then(() => {
             Promise.all([
                 Review.create({
                     rating: 4.5,
-                    reviews: "I was torn between recliners and decided on this one i! It’s the best purchase I have made in a long time! Very comfortable and relaxing after a long day at work!!"
+                    reviews: "I was torn between recliners and decided on this one i! It’s the best purchase I have made in a long time! Very comfortable and relaxing after a long day at work!!",
+                    date: "2011-10-17"
                 }).then(review => {
                     recliner.review.push(review)
                     // recliner.save()

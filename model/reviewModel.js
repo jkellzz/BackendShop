@@ -2,7 +2,7 @@ const mongoose = require('../db/connection')
 const Schema = mongoose.Schema
 
 const ReviewSchema = Schema({
-    "date": {type: Date, default: Date.now},
+    "date": String,
     "rating": Number,
     "reviews": String
     
