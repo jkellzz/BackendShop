@@ -4,6 +4,7 @@ const Review = require('../model/reviewModel')
 const getAllReviews = (req, res) => {
     Review.find({}).then(reviews => {
         res.json(reviews)
+        console.log('getting reviews')
     })
 }
 
