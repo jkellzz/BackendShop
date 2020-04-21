@@ -3,7 +3,7 @@ const Item = require('../model/itemModel')
 // Controller to get all items
 const getAllItems = (req, res) => {
     Item.find({})
-    .populate("Review")
+    .populate("review")
     .then(items => {
         res.json(items)
         
