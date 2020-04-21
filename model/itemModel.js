@@ -6,12 +6,12 @@ const ItemSchema = Schema({
     "item": String,
     "img": String,
     "price": Number,
-    "inStock": {type: Boolean},
+    "condition": String,
     "itemDescription": String,
-    "review": [
+    review: [
         {
-        "ref": "Review",
-        "type": Schema.Types.ObjectId
+        ref: "Review",
+        type: Schema.Types.ObjectId
         }
     ]
 })
