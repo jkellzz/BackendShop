@@ -2,13 +2,13 @@ const express = require('express')
 const app = express()
 const parser = require('body-parser')
 const logger = require('morgan')
-// const cors = require('cors')
-const PORT = process.env.PORT || 4000
+const cors = require('cors')
+const PORT = process.env.PORT || 8080
 
 // Middleware configuration
 app.use(logger('dev'))
 app.use(parser.json())
-// app.use(cors())
+app.use(cors())
 
 // Default route
 app.get('/', (req, res) => {
@@ -21,7 +21,6 @@ const reviewRoutes = require('./controllers/reviewRoutes')
 
 app.use('/api/items', itemRoutes)
 app.use('/api/reviews', reviewRoutes)
-
 
 // Set the port and configure server to listen on that port
 app.set('port', PORT)
