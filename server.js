@@ -25,4 +25,4 @@ app.use('/api/reviews', reviewRoutes)
 
 // Set the port and configure server to listen on that port
 app.set('port', PORT)
-app.listen(app.get('port'), () => console.log(`PORT: ${app.get('port')}`))
+app.listen(app.get('port'), () => {console.log(`PORT: ${app.get('port')}`)})
